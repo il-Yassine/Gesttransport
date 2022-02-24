@@ -6,6 +6,8 @@ use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\ChauffeurController;
 use App\Http\Controllers\BusController;
 use App\Http\Controllers\TrajetController;
+use App\Http\Controllers\VoyageController;
+use App\Http\Controllers\ColiController;
 
 /*
 |--------------------------------------------------------------------------
@@ -31,6 +33,8 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('admin');
 Route::get('/profile', [App\Http\Controllers\UserController::class, 'profile'])->name('admin.profile');
 Route::get('/profile', [App\Http\Controllers\UserController::class, 'profile'])->name('user.profile');
+Route::get('/reservation', [App\Http\Controllers\VoyageController::class, 'index'])->name('reservation');
+Route::get('/coli', [App\Http\Controllers\ColiController::class, 'index'])->name('coli');
 Route::resources([
     'users' => UserController::class,
     'trajets' => TrajetController::class,

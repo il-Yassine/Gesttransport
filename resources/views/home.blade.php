@@ -111,10 +111,10 @@
                   <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="{{ route('reservation') }}"> Reservation voyage</a>
+                  <a class="nav-link" href="{{ ('reservation') }}"> Reservation voyage</a>
                 </li>
                 <li class="nav-item active">
-                  <a class="nav-link" href="countries.html"> Reservation coli </a>
+                  <a class="nav-link" href="{{ ('coli') }}"> Reservation coli </a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">{{ auth()->User()->name}}</a>

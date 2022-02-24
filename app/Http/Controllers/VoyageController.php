@@ -15,6 +15,7 @@ class VoyageController extends Controller
     public function index()
     {
         //
+        return view('reservation');
     }
 
     /**

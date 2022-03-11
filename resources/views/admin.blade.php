@@ -36,7 +36,7 @@
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-laugh-wink"></i>
                 </div>
-                <div class="sidebar-brand-text mx-3">SB Admin <sup>2</sup></div>
+                <div class="sidebar-brand-text mx-3"> Admin </div>
             </a>
 
             <!-- Divider -->
@@ -66,7 +66,7 @@
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Custom Components:</h6>
+                        <h6 class="collapse-header"></h6>
                         <a class="collapse-item" href="{{route ('chauffeurs.index') }}">ajouter  un chauffeur</a>
                         {{-- <a class="collapse-item" href="{{route ('chauffeurs.edit') }}">Voir les chauffeur</a> --}}
                     </div>
@@ -83,7 +83,7 @@
                 <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Custom Utilities:</h6>
+                        <h6 class="collapse-header"></h6>
                         <a class="collapse-item" href="{{route ('buses.index') }}">Ajouter un bus</a>
                         {{-- <a class="collapse-item" href="{{route ('buses.edit') }}">Voir un bus</a> --}}
 
@@ -119,16 +119,12 @@
 
             <!-- Nav Item - Charts -->
             <li class="nav-item">
-                <a class="nav-link" href="charts.html">
-                    <i class="fas fa-fw fa-chart-area"></i>
-                    <span>Charts</span></a>
+
             </li>
 
             <!-- Nav Item - Tables -->
             <li class="nav-item">
-                <a class="nav-link" href="tables.html">
-                    <i class="fas fa-fw fa-table"></i>
-                    <span>Tables</span></a>
+
             </li>
 
             <!-- Divider -->
@@ -281,14 +277,7 @@
                                     <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Profile
                                 </a>
-                                <a class="dropdown-item" href="#">
-                                    <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
-                                    Settings
-                                </a>
-                                <a class="dropdown-item" href="#">
-                                    <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
-                                    Activity Log
-                                </a>
+
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="{{ route('logout') }} "  onclick="event.preventDefault();
                                 document.getElementById('logout-form').submit();">
@@ -526,6 +515,7 @@
                           <th>id</th>
                           <th>Nom du bus</th>
                           <th>Matricule du Bus</th>
+                          <th>Nombre de places dans le Bus</th>
                           <th>Option(s)
                           </th>
                         </tr>
@@ -537,6 +527,7 @@
                             <td>{{$bus->id}}</td>
                             <td>{{$bus->nomBus}}</td>
                             <td>{{$bus->matriculeBus}}</td>
+                            <td>{{$bus->numeroPlace}}</td>
                             <td>
                               <a class="btn btn-info" href="{{ route('buses.edit',$bus->id)}}">
                                 <i class="fas fa-edit"></i> Edit
@@ -558,7 +549,7 @@
                         </tfoot>
                       </table>
 
-                    <div class="card card-info">
+                    {{--  <div class="card card-info">
                         <div class="card-header">
                           <h3 class="card-title">Horizontal Form</h3>
                         </div>
@@ -594,7 +585,7 @@
                           </div>
                           <!-- /.card-footer -->
                         </form>
-                      </div>
+                      </div>  --}}
 
 
 
@@ -602,7 +593,7 @@
 
                     <div class="row">
 
-                        <!-- Area Chart -->
+                        {{--  <!-- Area Chart -->
                         <div class="col-xl-8 col-lg-7">
                             <div class="card shadow mb-4">
                                 <!-- Card Header - Dropdown -->
@@ -673,13 +664,13 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div>  --}}
                     </div>
 
                     <!-- Content Row -->
                     <div class="row">
 
-                        <!-- Content Column -->
+                        {{--  <!-- Content Column -->
                         <div class="col-lg-6 mb-4">
 
                             <!-- Project Card Example -->
@@ -826,7 +817,7 @@
                                 </div>
                             </div>
 
-                        </div>
+                        </div>  --}}
                     </div>
 
                 </div>

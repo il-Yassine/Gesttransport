@@ -79,16 +79,16 @@
             <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
               <ul class="navbar-nav  ">
                 <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="home">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="{{ route('login') }}"> connexion </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="about.html"> About</a>
+                  {{--  <a class="nav-link" href="about.html"> About</a>  --}}
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="countries.html"> Countries </a>
+                  {{--  <a class="nav-link" href="countries.html"> Countries </a>  --}}
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="{{ route('register') }}">Inscription</a>
@@ -110,16 +110,15 @@
                 <div class="col-md-9 col-lg-7">
                   <div class="detail-box">
                     <h1>
-                      We Make Visa <br>
-                      Process Faster
+                       <br>
+                      Gestions des transports
                     </h1>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod magna aliqua. Ut enim ad minim veniam
+                      Nous Assurons la sécurité de nos clients depuis la réservation
                     </p>
                     <div class="btn-box">
-                      <a href="" class="btn-1"> Read more </a>
-                      <a href="" class="btn-2">Get A Quote</a>
+                      {{--  <a href="" class="btn-1"> Read more </a>  --}}
+                      <a href="" class="btn-2">Voir plus</a>
                     </div>
                   </div>
                 </div>
@@ -132,16 +131,15 @@
                 <div class="col-md-9 col-lg-7">
                   <div class="detail-box">
                     <h1>
-                      We Make Visa <br>
-                      Process Faster
+                      Nos produits <br>
+                        Les différentes bus
                     </h1>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod magna aliqua. Ut enim ad minim veniam
+                      Nous Assurons la sécurité de nos clients depuis la réservation
                     </p>
                     <div class="btn-box">
-                      <a href="" class="btn-1"> Read more </a>
-                      <a href="" class="btn-2">Get A Quote</a>
+                      {{--  <a href="" class="btn-1">  </a>  --}}
+                      <a href="" class="btn-2">Voir plus</a>
                     </div>
                   </div>
                 </div>
@@ -154,16 +152,15 @@
                 <div class="col-md-9 col-lg-7">
                   <div class="detail-box">
                     <h1>
-                      We Make Visa <br>
-                      Process Faster
+                      Nos produits <br>
+                      Les différentes bus
                     </h1>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod magna aliqua. Ut enim ad minim veniam
+                      Nous Assurons la sécurité de nos clients depuis la réservation
                     </p>
                     <div class="btn-box">
-                      <a href="" class="btn-1"> Read more </a>
-                      <a href="" class="btn-2">Get A Quote</a>
+                      {{--  <a href="" class="btn-1"> Read more </a>  --}}
+                      <a href="" class="btn-2">Voir plus</a>
                     </div>
                   </div>
                 </div>
@@ -206,7 +203,7 @@
                 Minima consequatur architecto eaque assumenda ipsam itaque quia eum in doloribus debitis impedit ut minus tenetur corrupti excepturi ullam.
               </p>
               <a href="">
-                Read More
+                Voir plus
               </a>
             </div>
           </div>
@@ -242,7 +239,7 @@
                 Minima consequatur architecto eaque assumenda ipsam itaque quia eum in doloribus debitis impedit ut minus tenetur corrupti excepturi ullam.
               </p>
               <a href="">
-                Read More
+                Voir plus
               </a>
             </div>
           </div>
@@ -260,7 +257,7 @@
                 Minima consequatur architecto eaque assumenda ipsam itaque quia eum in doloribus debitis impedit ut minus tenetur corrupti excepturi ullam.
               </p>
               <a href="">
-                Read More
+                Voir plus
               </a>
             </div>
           </div>
@@ -299,7 +296,7 @@
             </p>
             <div class="btn-box">
               <a href="">
-                Read More
+                Voir plus
               </a>
             </div>
           </div>
@@ -316,10 +313,10 @@
     <div class="container">
       <div class="heading_container heading_center">
         <h2>
-          Choose Country
+          Choisir une ville
         </h2>
         <p>
-          Select country you want to apply visa for
+          Selectionner une ville
         </p>
       </div>
       <div class="row">

@@ -101,4 +101,12 @@ class UserController extends Controller
     {
         //
     }
+    public function profile()
+    {
+        return view('admin.profile');
+    }
+    public function profilee()
+    {
+        return view('user.profile');
+    }
 }

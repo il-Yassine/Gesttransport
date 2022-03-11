@@ -32,7 +32,7 @@ Route::group( ['middleware' => 'auth'], function () {
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('admin');
 Route::get('/profile', [App\Http\Controllers\UserController::class, 'profile'])->name('admin.profile');
-Route::get('/profile', [App\Http\Controllers\UserController::class, 'profile'])->name('user.profile');
+Route::get('/profilee', [App\Http\Controllers\UserController::class, 'profilee'])->name('user.profile');
 Route::get('/reservation', [App\Http\Controllers\VoyageController::class, 'index'])->name('reservation');
 Route::get('/coli', [App\Http\Controllers\ColiController::class, 'index'])->name('coli');
 Route::resources([

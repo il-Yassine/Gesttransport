@@ -1,4 +1,4 @@
-@extends('layouts.auth')
+@extends('layouts.admin')
 <link href="../../admin/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 <link href="../../admin/css/sb-admin-2.min.css" rel="stylesheet">
 @section('content')
